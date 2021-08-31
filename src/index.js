@@ -1,6 +1,7 @@
 import './style.css';
 import { postScore } from './post-score';
 import { getScores } from './get-scores';
+import { populateScoreList } from './populate-score-list';
 
 const sendScore = document.getElementById('sendScore');
 const refresh = document.getElementById('refresh');
@@ -14,4 +15,5 @@ sendScore.addEventListener('click', () => {
 
 refresh.addEventListener('click', () => {
   scores = getScores();
+  populateScoreList(scores);
 })
