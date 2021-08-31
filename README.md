@@ -1,47 +1,52 @@
-![](https://img.shields.io/badge/myapp-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> One paragraph statement about the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score..
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Screenshot-Leaderboard.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML 5
+- CSS 3
+- JavaScript
 
-## Live Demo
 
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Node.js
+- npm
 ### Setup
 
+Clone the repository with:
+
+```
+git clone git@github.com:ShinobiWarior/Leaderboard.git
+```
+or download [ZIP file](https://github.com/ShinobiWarior/Leaderboard/archive/refs/heads/dev.zip)
+
 ### Install
-
+To install all dependancies run:
+```
+npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader 
+```
 ### Usage
+To use the application run the next commands:
+```
+npm run build
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
+npm run start
+```
+## Author
 
 👤👤 **Aleksandar Ivezic**
 
@@ -49,18 +54,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@AIvezic](https://twitter.com/AIvezic)
 - LinkedIn: [Aleksandar Ivezic](https://www.linkedin.com/in/aleksandar-ivezic/)
 
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page]([issues](https://github.com/ShinobiWarior/Leaderboard/issues)/).
 
 ## Show your support
 
@@ -68,9 +66,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project was inspired by [Microverse](https://www.microverse.org/?grsf=w9rx3c)
 
 ## 📝 License
 
