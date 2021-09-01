@@ -13,18 +13,17 @@ const postScore = (name, score) => {
   })
     .then((response) => response.json())
     .then((result) => {
-      console.log(result);
       if (result.result) {
         notification.innerText = result.result;
-        notification.className = 'success';
+        notification.className = 'notification success';
       } else {
         notification.innerText = result.message;
-        notification.className = 'error';
+        notification.className = 'notification error';
       }
     })
     .catch((error) => {
       notification.innerText = error.message;
-      notification.className = 'error';
+      notification.className = 'notification error';
     });
 };
 

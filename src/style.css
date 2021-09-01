@@ -103,7 +103,7 @@ footer {
   color: rgb(27, 233, 123);
 }
 
-#notification {
+.notification {
   position: absolute;
   top: 10px;
   right: 10px;
