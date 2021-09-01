@@ -14,7 +14,7 @@
     <section class="scoreList">
       <div class="heading">
         <h3>Recent scores</h3>
-        <button type="button" id="refresh">Refresh</button>
+        <button class="btn" type="button" id="refresh"><span class="front">Refresh</span></button>
       </div><br>
       <div class="list">
         <ul id="list">
@@ -25,11 +25,15 @@
       <h3>Add your score</h3><br>
       <form >
         <input type="text" placeholder="Your name" id="name"><br><br>
-        <input type="text" placeholder="Your score" id="score"><br><br>
-        <input type="button" value="Submit" id="sendScore">
+        <input type="number" placeholder="Your score" id="score"><br><br>
+        <button class="btn" type="button" id="sendScore"><span class="front">Submit</span></button>
       </form>
-    </section>
+    </section>    
   </main>
+  <div id="notification"></div>
+  <footer>
+    <p>&copy;2021 Made by <a class="shinobi" href="https://shinobiwarior.github.io/Personal_Portfolio/">Shinobi</a>  </p>
+  </footer>
   
 </body>
 </html>
