@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: 'Kalam', cursive;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(45, 255, 255, 0.5));
+  height: 100vh;
 }
 
 header {
@@ -10,12 +19,100 @@ header {
 main,
 .heading {
   display: flex;
+}
+
+main {
   justify-content: space-evenly;
+}
+
+.heading {
+  justify-content: space-between;
 }
 
 ul {
   list-style: none;
-  border: 2px solid gray;
-  width: 300px;
-  height: 400px;
+  min-width: 350px;
+  max-width: 400px;
+  height: 50vh;
+}
+
+li {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(62, 112, 85);
+}
+
+li:nth-child(even) {
+  background-color: rgb(89, 207, 142);
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  background: hsl(340deg 100% 32%);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+
+.front {
+  display: block;
+  padding: 6px 21px;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.btn:active .front {
+  transform: translateY(-2px);
+}
+
+#sendScore {
+  width: 100%;
+  background: rgb(62, 112, 85);
+}
+
+#sendScore .front {
+  background: rgb(89, 207, 142);
+}
+
+footer {
+  width: 200px;
+  margin-left: auto;
+}
+
+.shinobi {
+  text-decoration: none;
+  color: rgb(60, 131, 92);
+  font-size: 1.1rem;
+}
+
+.shinobi:hover {
+  color: rgb(27, 233, 123);
+}
+
+#notification {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
 }
