@@ -14,7 +14,9 @@ Additional description about the project and its features.
 - CSS 3
 - JavaScript
 
+## Live Demo
 
+[Live Demo Link](https://shinobiwarior.github.io/Leaderboard/)
 
 
 ## Getting Started
